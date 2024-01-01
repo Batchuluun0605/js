@@ -6,7 +6,7 @@ import Url from "./schema/Url.js";
 const app = express();
 const PORT = 8000;
 const MONGODB_URL =
-  "mongodb+srv://batchuluun:04260517@cluster0.6crpbvz.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://batchuluun:@cluster0.6crpbvz.mongodb.net/?retryWrites=true&w=majority";
 app.use(bp.json());
 
 // const users = [
